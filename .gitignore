@@ -1,0 +1,16 @@
+# Rust build products
+**/target/
+
+# Generated executables and local build output
+**/dist/*.exe
+**/bin/*.exe
+
+# Local logs and diagnostics
+*.log
+*-error.log
+
+# Local credentials/configuration; never commit these
+**/config/config.yml
+**/config/credentials.yml
+*.secret
+.env
